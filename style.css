@@ -13,7 +13,7 @@ body {
   .matrix img {
     width: 100%;
   }
-  .matrix .more-inf {
+  .matrix .more-info {
     font-family: fantasy, cursive;
   }
   
@@ -133,11 +133,11 @@ body {
   }
   
   /* Completed */
-  ul#completed-tasks label {
+  ul #completed-tasks label {
     text-decoration: line-through
     color: #888;
   }
-  
+   
   /* Edit Task */
   ul li input[type=text] {
     display:none
