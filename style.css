@@ -13,7 +13,8 @@ body {
   .matrix img {
     width: 100%;
   }
-  .matrix .more-info {
+  .matrix,
+  .more-info {
     font-family: fantasy, cursive;
   }
   
@@ -41,10 +42,12 @@ body {
     margin:0;
     padding: 0px;
   }
-  li, h3 {
+  li,
+  h3 {
     list-style:none;
   }
-  input, button {
+  input,
+  button {
     outline:none;
   }
   button {
